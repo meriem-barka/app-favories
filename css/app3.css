@@ -1,0 +1,61 @@
+/* /*===============Style par défaut=================================*/
+
+* {
+	box-sizing : border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+.logo img{
+  position: fixed;
+  width: 10%;
+}
+
+nav{
+  font-weight: bold;
+  text-align: right;
+  margin-left: 50%;
+  display: inline;
+}
+
+h1{
+  font-size: 2.5em;
+  color: #FF6600;
+}
+
+ul{
+  list-style: none;
+}
+
+li {
+  display: inline;
+}
+
+a{
+  font-family: monospace;
+  font-size: 1.5em;
+  color: #FF6600;
+  margin-right: 10%;
+  text-decoration: none;
+}
+
+.font{
+  margin: auto;
+  width: 100%;
+}
+
+section p{
+  text-align: center;
+}
+
+
+footer{
+  padding: 1%;
+  background-color: DarkOrange;
+}
+
+footer p{
+  text-align: right;
+}

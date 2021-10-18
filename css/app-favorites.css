@@ -1,0 +1,203 @@
+/* /*===============Style par défaut=================================*/
+
+* {
+	box-sizing : border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Bitstream Vera Serif Bold";
+  src: url("/static/styles/libs/font-awesome/fonts/fontawesome-webfont.fdf491ce5ff5.woff");
+}
+
+img{
+  clip-path: circle(40%);
+  width: 100%;
+  height: 20%;
+}
+
+
+h4{
+	text-align: center;
+  font-size: 1.5em;
+}
+
+p{
+	font-weight: bold;
+	font-size: 1em;
+}
+
+/* /*===============Mobile first===========================
+
+
+/* /*==NAV==*/
+
+nav{
+	padding: 1%;
+  background-color: #C0C0C0;
+}
+
+ul{
+  text-align:;
+  list-style:none;
+}
+
+li{
+	margin-left: 10%;
+	display: inline;
+}
+
+nav li a{
+	display: inline-block;
+  color: white;
+  text-decoration:none;
+}
+
+a:hover{
+	border-radius: 6%;
+	background-color: #272f34;
+}
+
+/* /*==Présentation==*/
+
+h1{
+	font-family:cursive;
+	color: #272f34;
+  text-align: center;
+}
+
+section p{
+	font-family: 'Caveat', cursive;
+	color: #272f34;
+	text-align: center;
+}
+
+/* /*==Introduction des Applications==*/
+
+
+/*==Park4Night==*/
+.app1{
+  background-color:#F5F5F5;
+}
+
+.app1 h4{
+  color: #00CCCC;
+  text-align: center;
+}
+
+.app1 p{
+	font-family: 'Caveat', cursive;
+  text-align: center;
+  color: #0066FF;
+}
+
+
+/*==Yuka==*/
+.app2 h4{
+  color: #FF8C00;
+}
+
+.app2 p{
+	font-family: 'Merienda', cursive;
+	text-align: center;
+  color: #181818;
+}
+
+
+/*==Babbel==*/
+.app3{
+  background-color:#F5F5F5;
+}
+
+.app3 h4{
+  color: #FF6600;
+}
+
+.app3 p{
+	font-family: 'Rampart One', cursive;
+	text-align: center;
+  color: #FF6600;
+}
+
+
+/* /*==Bas de la page==*/
+footer{
+	padding: 20%;
+	background-color: #C0C0C0;
+}
+
+ footer p{
+	 font-family:cursive;
+	 font-size:1em;
+ }
+
+ /* /*===============Desktop===========================*/
+
+ @media screen and (min-width:1024px){
+
+		body{
+			background-color:#F5F5F5;
+		}
+
+		nav{
+			text-align: center;
+		 }
+
+		 h1{
+			margin-right: 50%;
+	 	  text-align: left;
+	 	}
+
+	 	section p{
+			font-size: 1.5em;
+			text-align: left;
+		}
+
+		article p{
+			font-size: 1.3em;
+		}
+
+		.app1, .app3{
+			border-radius: 5%;
+			width:  50%;
+			background-color: #C0C0C0;;
+		}
+
+/*==Park4Night==*/
+		.app1 h4{
+		  		  color: #0066FF;
+		}
+
+		.app1 p{
+			color: #FFFFFF;
+		}
+
+		.app2{
+			margin-left: 50%;
+			width:  50%;
+		}
+
+/*==Babbel==*/
+		.app3 h4{
+			color: #FF6600;
+		}
+
+		.app3 p{
+			color: #FFFFFF;
+		}
+
+		/* /*==Bas de la page==*/
+		footer{
+			padding: 1%;
+			background-color: #FFFFFF;
+		}
+
+		 footer p{
+			 font-weight: bold;
+			 text-align: right;
+			 font-size:1em;
+		 }
+}
